@@ -1,2 +1,2 @@
-# dataform-validatation
-How to validate the controls in Xamarin.Forms
+# How to validate the controls in Xamarin.Forms
+If any user interface enterprise application receives the input, our common requirement will be to validate the provided information (such as Email address, password, phone number) whether it satisfies the desired format and range for further processing. You can validate the data in user interface control by using the built-in validations such as `INotifyDataErrorInfo` and Data annotation while following the MVVM pattern.
