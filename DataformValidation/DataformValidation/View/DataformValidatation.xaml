@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DataformValidation"
+              xmlns:dataForm ="clr-namespace:Syncfusion.XForms.DataForm;assembly=Syncfusion.SfDataForm.XForms"    
+             x:Class="DataformValidation.DataformValidatation">
+    <ContentPage.BindingContext>
+        <local:ViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+    <dataForm:SfDataForm x:Name="dataForm" DataObject="{Binding EmployeeInfo}"  
+                         VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  
+                         LabelPosition="Top" />
+    </ContentPage.Content>
+</ContentPage>
